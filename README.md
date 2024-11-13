@@ -32,7 +32,6 @@ This project is designed to provide a simple, user-friendly platform for applyin
    git clone https://github.com/RYasaswini/Cartoonizer_Web_App.git
    cd Cartoonizer_Web_App
 2. Install the required packages:
-   ```bash
    pip install -r requirements.txt
 3.Run the application
    python app.py
