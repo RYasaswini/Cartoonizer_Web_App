@@ -34,10 +34,8 @@ This project is designed to provide a simple, user-friendly platform for applyin
 2. Install the required packages:
    ```bash
    pip install -r requirements.txt
-3.Run the application:
-   ```bash
+3.Run the application
    python app.py
-
 
 ## Usage
 1.Open the application in your browser.
