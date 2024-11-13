@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Responsive Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">R.Yasaswini</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Yasaswini<br /></span>I am passionate about web development and design.
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Yasaswini, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. I've worked on a variety of
+            web projects, ranging from personal blogs to e-commerce platforms.
+          </p>
+          <div class="action__btns">
+            <button class="hire__me">Hire Me</button>
+            <button class="portfolio">Portfolio</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="yashuu.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section__container">
+        <div class="about__content">
+          <h2>About Me</h2>
+          <p>
+            Hi, I'm Yasaswini, a passionate web developer with expertise in creating visually appealing and user-friendly websites. I have a background in Computer Science and have been working in the web development field for several years. My skills include HTML, CSS, JavaScript, and various frameworks like React and Angular. I am dedicated to continuous learning and strive to keep up with the latest industry trends and technologies.
+          </p>
+        </div>
+        <div class="about__image">
+          <img src="yashuu.jpg" alt="Your Photo" class="profile-pic">
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section">
+      <div class="section__container">
+        <h2>Resume</h2>
+        <p>Download my resume: <a href="resume.pdf" target="_blank">Resume.pdf</a></p>
+        <h3>Education</h3>
+        <p>
+          <strong>Bachelor of Science in Computer Science</strong><br>
+          RAJIV GANDHI UNIVERSITY OF KNOWLEDGE TECHNOLOGIES, 2024<br>
+          - Focused on web development and software engineering.<br>
+          - Participated in various projects and hackathons.
+        </p>
+        <h3>Skills</h3>
+        <p>
+          - HTML, CSS, JavaScript<br>
+          - React, DSA With Java<br>
+          - Responsive Design<br>
+          - Git and GitHub
+        </p>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="section__container">
+        <h2>Portfolio</h2>
+        <div class="portfolio__slider">
+          <div class="portfolio__slide">
+            <div class="project">
+              <div class="project__image">
+                <img src="R.png" alt="Project 1 Screenshot">
+              </div>
+              <h3>Organic Farm</h3>
+              <p>The "Organic Farm" project is an e-commerce website designed to facilitate the purchase of organic vegetables, fruits, millets, milk, and spices. It is built using HTML, CSS, Bootstrap, PHP, and JavaScript, providing a user-friendly interface for browsing and buying organic products.</p>
+            </div>
+          </div>
+          <div class="portfolio__slide">
+            <div class="project">
+              <div class="project__image">
+                <img src="hospital.png" alt="Project 2 Screenshot">
+              </div>
+              <h3>Hospital Management System</h3>
+              <p>A comprehensive Hospital Management System (HMS) using Java Swing/AWT for the frontend and MySQL/JDBC for the backend. Features include user authentication, account creation, appointment scheduling, and medication history tracking. Designed to streamline administrative tasks and enhance patient care. Ideal for modern healthcare facilities.</p>
+            </div>
+          </div>
+          <div class="portfolio__slide">
+            <div class="project">
+              <div class="project__image">
+                <img src="student.png" alt="Project 3 Screenshot">
+              </div>
+              <h3>Student Auditorium Management System</h3>
+              <p>The Student Auditorium Management System is a web-based application that allows users to book tickets for events like dances, gymnastics, horror shows, magic shows, motivational talks, and comedy shows. It uses HTML, CSS, and JavaScript for the frontend and Java with JDBC for the backend.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section__container">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post" class="contact__form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
